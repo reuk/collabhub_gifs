@@ -6,7 +6,7 @@ void setup() {
   colorMode(HSB, 1);
   frameRate(30);
 
-  font = createFont("URW Gothic L Book", 200);
+  font = createFont("Futura", 200);
   circle = get_circles();
 
   result = new int[width*height][3];
