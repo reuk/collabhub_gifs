@@ -2,7 +2,7 @@ import subprocess
 import os
 
 def main():
-    for i in ["collabhub_gif_0","collabhub_gif_1", "collabhub_gif_2", "collabhub_gif_3",]:
+    for i in ["collabhub_gif_1", "collabhub_gif_2", "collabhub_gif_3",]:
         subprocess.call([
             "convert",
             "-loop",
